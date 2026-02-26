@@ -10,14 +10,25 @@
     "typecheck": "turbo typecheck",
     "test": "turbo test",
     "clean": "turbo clean",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "changesets version && pnpm install --no-frozen-lockfile && git add .",
+    "publish": "turbo build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.0",
     "husky": "^9.0.0",
     "turbo": "^2.0.0"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=20"
+  },
+  "changesets": {
+    "baseBranch": "main",
+    "changelog": false,
+    "commit": false,
+    "fixed": [],
+    "linked": [],
+    "access": "restricted"
   }
 }
