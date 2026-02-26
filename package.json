@@ -1,0 +1,23 @@
+{
+  "name": "@repo/package-template",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TypeScript monorepo template with vitest, turbo, husky, and changesets",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "clean": "turbo clean",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0",
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
