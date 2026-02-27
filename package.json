@@ -1,5 +1,5 @@
 {
-  "name": "@repo/package-template",
+  "name": "{{name}}",
   "version": "0.0.0",
   "private": true,
   "description": "TypeScript monorepo template with vitest, turbo, husky, and changesets",
@@ -34,5 +34,10 @@
     "fixed": [],
     "linked": [],
     "access": "restricted"
+  },
+  "nesalia": {
+    "id": "monorepo-ts",
+    "displayName": "TypeScript Monorepo",
+    "description": "TypeScript monorepo template with vitest, turbo, husky"
   }
 }

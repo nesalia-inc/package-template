@@ -107,7 +107,7 @@ Each package should have:
 
 ```json
 {
-  "name": "@repo/package-name",
+  "name": "{{name}}-package-name",
   "version": "0.0.0",
   "private": true,
   "type": "module",
