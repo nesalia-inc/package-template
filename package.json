@@ -1,6 +1,6 @@
 {
   "name": "@nesalia/template-monorepo-ts",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "TypeScript monorepo template with vitest, turbo, husky, and changesets",
   "scripts": {
     "build": "turbo build",
@@ -8,10 +8,7 @@
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
     "test": "turbo test",
-    "clean": "turbo clean",
-    "prepare": "husky install",
-    "release": "changesets version && pnpm install --no-frozen-lockfile && git add .",
-    "publish": "npm publish --access public"
+    "clean": "turbo clean"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.0",
