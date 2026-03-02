@@ -1,6 +1,6 @@
 {
   "name": "@nesalia/template-monorepo-ts",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "TypeScript monorepo template with vitest, turbo, husky, and changesets",
   "scripts": {
     "build": "turbo build",
